@@ -20,6 +20,8 @@
 		17D166BF17B952A400E02C69 /* OPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D166BD17B952A400E02C69 /* OPViewController.xib */; };
 		17D166CE17B9539E00E02C69 /* OPCircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D166CB17B9539E00E02C69 /* OPCircleImageView.m */; };
 		17D166CF17B9539E00E02C69 /* OPThumbnailPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D166CD17B9539E00E02C69 /* OPThumbnailPageControl.m */; };
+		17D166D317B98CD400E02C69 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D166D117B98CD400E02C69 /* monkey.png */; };
+		17D166D417B98CD400E02C69 /* monkey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D166D217B98CD400E02C69 /* monkey@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		17D166CB17B9539E00E02C69 /* OPCircleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPCircleImageView.m; sourceTree = "<group>"; };
 		17D166CC17B9539E00E02C69 /* OPThumbnailPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPThumbnailPageControl.h; sourceTree = "<group>"; };
 		17D166CD17B9539E00E02C69 /* OPThumbnailPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPThumbnailPageControl.m; sourceTree = "<group>"; };
+		17D166D117B98CD400E02C69 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		17D166D217B98CD400E02C69 /* monkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkey@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				17D166C517B952BC00E02C69 /* OPThumbnailPageControl */,
 				17D166A817B952A400E02C69 /* OPThumbnailPageControlTest */,
 				17D166A117B952A400E02C69 /* Frameworks */,
+				17D166D017B98CD400E02C69 /* images */,
 				17D166A017B952A400E02C69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,6 +130,15 @@
 			name = OPThumbnailPageControl;
 			sourceTree = "<group>";
 		};
+		17D166D017B98CD400E02C69 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				17D166D117B98CD400E02C69 /* monkey.png */,
+				17D166D217B98CD400E02C69 /* monkey@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,6 +196,8 @@
 				17D166B717B952A400E02C69 /* Default@2x.png in Resources */,
 				17D166B917B952A400E02C69 /* Default-568h@2x.png in Resources */,
 				17D166BF17B952A400E02C69 /* OPViewController.xib in Resources */,
+				17D166D317B98CD400E02C69 /* monkey.png in Resources */,
+				17D166D417B98CD400E02C69 /* monkey@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
